@@ -1,0 +1,93 @@
+﻿listas ordenadas
+TAG <ol> </ol>
+      <li>acorda</li>
+      <li>banho</li> o barra </li> é opcional em listas.
+
+listas não ordenadas
+tag <ul>
+
+  <li>pão
+  <li>leite
+  <li>tomate
+
+lista de definição
+tag <dl>
+      <dt>HTML</dt>
+      <dd>Linguagem de marcação para criação do conteúdo de um site.</dd>
+      <dt>CSS</dt>
+      <dd>Linguagem de marcação para criação de desing de um site.</dd>
+      <dt>JavaScript</dt>
+      <dd>Linguagem de programação para a criação de interatividade de um site.</dd>
+   </dl> 
+
+colocar video na web
+
+ tag <video width= "500" posters "coloca a imagem que vai ficar na capa do video" controls
+autoplay loop>
+   <source src= "coloca a midia do video" type= para colocar o formato do video que 
+são eles "video/mp4" "video/webn" "video/ogg"
+
+site de cor : adobe color, paletton.com, coolors.com, 
+
+tag css:
+font-family: serve para colocar o formato de letra no texto
+text-aling: serve para disse a forma que o texto vai ser escrito( direita, esquerda, centro.)
+border-radius: diz o como vai ficar a borda do texto
+width: serve para disse a largura da tela
+padding: serva para ajustar o texto
+margin: deixa o texto centralizado na tela
+box-shadow: bota uma sobra no texto
+
+font-family: defini a forma da letra
+font-size: serve para colocar o tamanho da letra
+*/
+Medidas absolutas: cm, mm, in, px, pt, pc
+
+Medidas relativas: em, ex, rem, vw, vh, %  /*
+
+font-weight: peso da fonte
+*/ light normal bold bolder esses são os peso da fonte /*
+font-style: forma da escrita do texto
+text-decoration: decora(efeito) o texto
+
+site de fonte: Dafont.com, 
+
+
+*/ tipos de format()
+- opentyoe (otf)
+- truetype (ttf)
+- embedded-opentype
+- truetype-aat (Apple Advanced Typography)
+- svg
+
+
+tag html: text-indent: 20px(serve para afastar o começo do texto fazer um novo parágrafo.)
+
+css colocar uma indetificação no style; tem o id""= e o classe=" "
+
+SELETOrES PErSONALIZADOS
+# = ind
+. = class
+: = pseudo-class
+:: = pseudo-element
+> = clildren
+ TIPOS DE CAIXA:
+box- level; <div> <h1>-<h6> <p> <main> <header> <nav>
+<article> <aside> <footer> <form> <video>
+
+inline-level: <span> <a> <code> <small> <strong> <em>
+<sup>-<sub> <label> <button> <input> <select>
+
+css= border-radius> mexe na borda da pagina
+
+line-height: espaçamento entre as linhas
+
+
+cap 18;
+
+Git serve para repositorio local
+GitHub serve para repositorio remoto (senha-Hi230814*) username-higorferreiraa
+
+
+Shorthand - background
+color > image > position > repeat > size > attachment
