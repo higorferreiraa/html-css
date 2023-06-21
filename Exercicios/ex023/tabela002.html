@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table {
+            width: 500px;
+            border-collapse: collapse;
+            position: relative;
+        }
+        td, th {
+            border: 1px solid black;
+        }
+        caption {
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: lightgray;
+        }
+        thead, tfoot {
+            background-color: rgb(61, 61, 61);
+            color: white;
+        }
+
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: rgb(97, 90, 90);
+        }
+
+        tbody >tr:nth-child(odd) {
+            background-color: lightgray;
+        }
+
+        tbody > tr:nth-child(even) {
+            background-color: rgb(179, 19, 19);
+        }
+
+        td.num {
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+    <h1>Uso de tabelas grandes</h1>
+     <!--
+        Anatomia para tabelas Grandes table
+        Caption
+          Thead
+            tr, td, th
+          Tbody
+            tr, td, th
+          Tfoot
+            tr, td, th
+     -->
+     <table>
+        <caption>Pupulação das Unidades Federativas</caption>
+        <thead>
+            <tr>
+                <th scope="col">Estado</th>
+                <th scope="col">População</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">45 919 049</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">21 168 791</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">17 264 943</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="num"> 14 873 064</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th scope="row">Total de Habitantes</th>
+                <strong>
+                    <td class="num">99 225 847</td> 
+                </strong>
+            </tr>
+        </tfoot>
+     </table>
+     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia explicabo eligendi at</p>
+     <p>velit sapiente, ratione voluptates assumenda deleniti exercitationem tempore ipsa, 
+        blanditiis laborum minima. Enim repellat consequuntur deserunt </p> 
+    <p>
+        ratione consequatur.
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda voluptas quo, similique 
+        quod iure veritatis excepturi dolorum voluptatem sunt, velit vel deserunt iste ea 
+        exercitationem quisquam neque animi doloremque molestiae!
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum hic ipsam 
+        recusandae atque odio at exercitationem repellat, doloremque magnam dolor quo dolore in ut 
+        deleniti nulla blanditiis itaque rem eum!
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione suscipit ab earum provident 
+        dolorum labore vel, incidunt iure odio ullam? Itaque beatae odit, modi asperiores 
+        voluptatibus eos laboriosam libero voluptates.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci repellat voluptatibus 
+         totam exercitationem cum provident suscipit a eligendi temporibus quos laborum, optio nemo tempora accusantium aliquid officia
+        </p>distinctio tenetur eos?
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Non commodi aspernatur ad 
+            similique est quisquam quia explicabo consequatur amet in vitae quos numquam sit, 
+            eum expedita. Dolorem, dolores! Explicabo, eveniet!
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam, deleniti. Quis 
+            vero voluptas quia veritatis maxime quisquam hic officia. Placeat at velit similique
+            maxime? Adipisci quam vitae deserunt praesentium ducimus.
+        </p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem sint aperiam facilis, 
+            exercitationem sit et libero aut veritatis iure quas voluptatem! Sequi incidunt 
+            soluta, dicta repellendus minima officiis rem tempore. Lorem ipsum dolor sit amet, 
+            consectetur adipisicing elit. Excepturi veniam eligendi ea architecto quasi, 
+            corrupti laborum at ut adipisci tenetur assumenda, saepe officiis alias 
+            exercitationem earum. Id incidunt accusantium quasi.</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates quos itaque nam reiciendis,
+            deserunt rerum unde? Sit, exercitationem modi aliquid consequatur error in dicta consequuntur 
+            beatae odit, explicabo asperiores earum? Lorem ipsum dolor sit amet consectetur 
+            adipisicing elit. Ad aspernatur expedita qui exercitationem amet quia sed enim fugiat 
+            aperiam nulla, voluptatibus iusto deserunt perferendis omnis tempore! Eum assumenda earum ad.</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis et sit ullam 
+            quibusdam illum tempora in provident numquam, pariatur tenetur nulla esse eius
+             recusandae ut deleniti doloribus aperiam suscipit magnam? Lorem ipsum dolor sit, amet 
+             consectetur adipisicing elit. Maxime beatae rerum eos sunt praesentium velit! 
+             Aspernatur cupiditate voluptate odit dolor! Et maiores, veniam nesciunt voluptatem 
+             velit itaque accusamus in id. Lorem ipsum dolor sit amet, consectetur adipisicing 
+             elit. Error numquam odit quia laboriosam quas commodi placeat molestias sapiente 
+             perferendis quasi aliquid explicabo, quos mollitia perspiciatis nisi ipsam nemo 
+             veniam vitae!</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis et sit ullam 
+            uibusdam illum tempora in provident numquam, pariatur tenetur nulla esse eius
+            recusandae ut deleniti doloribus aperiam suscipit magnam? Lorem ipsum dolor sit, amet 
+            consectetur adipisicing elit. Maxime beatae rerum eos sunt praesentium velit! 
+            Aspernatur cupiditate voluptate odit dolor! Et maiores, veniam nesciunt voluptatem 
+            velit itaque accusamus in id. Lorem ipsum dolor sit amet, consectetur adipisicing 
+            elit. Error numquam odit quia laboriosam quas commodi placeat molestias sapiente 
+            perferendis quasi aliquid explicabo, quos mollitia perspiciatis nisi ipsam nemo 
+            veniam vitae!</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis et sit ullam 
+            quibusdam illum tempora in provident numquam, pariatur tenetur nulla esse eius
+            recusandae ut deleniti doloribus aperiam suscipit magnam? Lorem ipsum dolor sit, amet 
+            consectetur adipisicing elit. Maxime beatae rerum eos sunt praesentium velit! 
+            Aspernatur cupiditate voluptate odit dolor! Et maiores, veniam nesciunt voluptatem 
+            velit itaque accusamus in id. Lorem ipsum dolor sit amet, consectetur adipisicing 
+            elit. Error numquam odit quia laboriosam quas commodi placeat molestias sapiente 
+            perferendis quasi aliquid explicabo, quos mollitia perspiciatis nisi ipsam nemo 
+            veniam vitae!</p>
+</body>
+</html>
