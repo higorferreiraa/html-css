@@ -91,3 +91,17 @@ GitHub serve para repositorio remoto (senha-Hi230814*) username-higorferreiraa
 
 Shorthand - background
 color > image > position > repeat > size > attachment
+
+o tamanho padrão do iframe é 300x150
+
+
+
+
+
+
+
+
+
+
+
+
