@@ -116,7 +116,7 @@ o tamanho padrão do iframe é 300x150
             <input type="reset" value="Limpar">
 
 
-
+midia query = midia type + midia fisht
 
 
 
