@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query</title>
+    <link rel="stylesheet" href="https:fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="estilos/style.css">
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <i id="burguer" class="material-icons" onclick="clickMenu()">menu</i>
+        <menu id="itens">
+            <ul>
+                <li><a href="#">Opção 1</a></li>
+                <li><a href="#">Opção 2</a></li>
+                <li><a href="#">Opção 3</a></li>
+                <li><a href="#">Opção 4</a></li>
+                <li><a href="#">Opção 5</a></li>
+            </ul>
+        </menu>
+    </header>
+    <main>
+        <article>
+            <h2>Testando Media Queries</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam nobis officia ea 
+            veritatis, obcaecati quaerat possimus quis placeat mollitia! Aliquam minus hic vel 
+            magni earum accusantium nulla laboriosam iusto dolore? Lorem ipsum dolor sit amet 
+            consectetur adipisicing elit. Quod autem, eligendi nesciunt enim voluptate temporibus 
+            culpa maxime expedita, eveniet magnam consequuntur odit quaerat quasi, minus laudantium 
+            fugiat consectetur! Qui, necessitatibus? Lorem ipsum dolor sit amet consectetur 
+            adipisicing elit. Ipsam dolorem natus odio voluptas esse nemo, consequatur quis 
+            reiciendis praesentium quaerat exercitationem soluta inventore eos nesciunt, neque 
+            accusantium fugiat quod magni?</p> <br>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit assumenda amet animi 
+            quod illum delectus, vel, id, laborum modi labore exercitationem tenetur! Nulla 
+            necessitatibus quisquam quaerat aspernatur fugit autem aut! Lorem ipsum dolor sit amet 
+            consectetur, adipisicing elit. Nihil non consectetur officia voluptatem architecto 
+            eligendi delectus repudiandae nesciunt nam voluptatibus error, adipisci accusantium, 
+            distinctio nobis, accusamus corrupti porro dolores saepe!</p> <br>
+
+            <p>Fundada em 2011 por repórteres mulheres, a Pública é a primeira agência de jornalismo 
+            investigativo sem fins lucrativos do Brasil. Todas as nossas reportagens são feitas 
+            com base na rigorosa apuração dos fatos e têm como princípio a defesa intransigente 
+            dos direitos humanos. Nossas reportagens de fôlego pautadas pelo interesse público 
+            foram republicadas em 2022 por mais de 700 veículos de comunicação brasileiros e 
+            estrangeiros. Além de distribuir conteúdo para grandes portais no país, como UOL, 
+            Folha de S. Paulo, iG, Metrópoles, entre outros, em 2022, tivemos 217 republicações 
+            em 79 sites de 18 países e em 10 idiomas diferentes. Todas as reportagens da Pública 
+            podem ser republicadas gratuitamente sob a licença Creative Commons.</p> 
+        </article>
+    </main>
+    <script>
+        function clickMenu() {
+           if (itens.style.display == 'block') {
+            itens.style.display = 'none'
+           } else {
+            itens.style.display = 'block'
+           }
+        }
+    </script>
+</body>
+</html>
